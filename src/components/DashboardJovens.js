@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { 
   PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, 
   CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  LineChart, Line, AreaChart, Area
+  AreaChart, Area
 } from 'recharts';
-import { Users, Calendar, Phone, Mail, Heart, MapPin } from 'lucide-react';
+import { Users, Calendar, Phone, Mail, Heart } from 'lucide-react';
 
 // Cores do tema
 const COLORS = ['#3b82f6', '#8b5cf6', '#ec4899', '#f97316', '#14b8a6', '#22c55e', '#eab308', '#ef4444'];
